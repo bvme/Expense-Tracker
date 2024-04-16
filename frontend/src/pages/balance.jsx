@@ -13,7 +13,7 @@ export default function Balance() {
     const router = useRouter()
     const createData = async () => {
         router.push("/finish")
-        const response = await fetch(`${process.env.NEXT_PUBLIC_ENDPOINT}/users/signup`, {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_ENDPOINT}/balance/signup`, {
             method: "POST",
             headers: {
                 Accept: "application/json, text/plain, */*",

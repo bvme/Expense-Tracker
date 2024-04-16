@@ -1,4 +1,3 @@
-// app.js
 import  postgres  from "postgres";
 import  dotenv  from "dotenv";
 
